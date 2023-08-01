@@ -6,6 +6,18 @@ body {
 
 .header {
     background-color: black;
-    height: 10%;
+    height: 100px;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Borel', cursive;
+    font-size: 50px;
+    padding-top: 25px;
 }
