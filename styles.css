@@ -4,20 +4,35 @@ body {
     height: 100vh;
 }
 
+ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
 .header {
-    background-color: black;
+    box-sizing: border-box;
+    background-color: #353839;
     height: 100px;
+    padding: 25px;;
+    font-size: 25px;
     color: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.dev-logo {
+.header-left {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Borel', cursive;
-    font-size: 50px;
-    padding-top: 25px;
+}
+
+.header-right {
+    margin: 0;
 }
